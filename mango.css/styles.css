@@ -86,7 +86,7 @@
   
   /* gallery*/
     
-  .img-video-container{
+  .img-container{
     display: flex;
     object-fit: cover;
     flex-wrap: wrap;
@@ -98,8 +98,6 @@
     background-color: #f1b8ad;
     border-radius: 2rem;
     overflow: auto;
-    
-    
   }
   
   .img{
@@ -362,7 +360,6 @@
 
 
    .border-container{
-    height: 100%;
     border: 4px solid #f1b8ad;
     margin: 1rem;
     border-radius: 1rem;
@@ -394,11 +391,11 @@
     font-size: 1.1rem;
     text-align: center;
     justify-content: center;
-    width: 15rem;
+    width: 20rem;
     padding-left: 5rem;
   }
 
-  .telefon, .adres{
+  .telefon, .adres, .email{
     padding: 0.5rem;
     text-decoration: none;
 
